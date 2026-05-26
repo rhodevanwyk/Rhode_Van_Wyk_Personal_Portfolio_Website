@@ -43,7 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: center;
+  justify-content: end;
 }
 
 .hero_title {
@@ -54,6 +54,11 @@ body {
   font-size: 1.5rem;
 }
 
+.hero_paragraph {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
 .hero_name {
   font-family: var(--bionix);
   font-size: 17rem;
@@ -61,7 +66,7 @@ body {
   text-align: right;
 }
 
-.hero_btns {
+.hero_info {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -94,6 +99,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .btn_sec {
@@ -107,6 +113,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .stats_section {
@@ -116,4 +123,28 @@ body {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+}
+
+.nav_bar {
+  background-color: var(--dark);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nav_cv_download {
+  background-color: var(--medium);
+  color: var(--dark);
+  border-radius: 1rem;
+  font-weight: 800;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  cursor: pointer;
 }

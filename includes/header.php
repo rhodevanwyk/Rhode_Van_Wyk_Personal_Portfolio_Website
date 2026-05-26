@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rhodé Van Wyk</title>
-    <link rel="icon" type="image/png" href="#">
+    <link rel="icon" type="image/png" href="includes/images/my_logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +17,12 @@
     <div id="vanta_bg"></div>
 
     <nav class="nav_bar">
-        <a href="home.php">
-            <img src="#" alt="Logo">
-        </a>
+        <div>
+            <a class="nav_cv_download">
+                <i class="fa-solid fa-file-pdf"></i>CV
+            </a>
+         </div>
+            
 
         <div>
             <a href="home.php">
@@ -44,6 +47,24 @@
 
             <a href="contact.php">
                 Contact
+            </a>
+        </div>
+
+        <div>
+            <a href="home.php">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="about.php">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="skills.php">
+                <i class="fa-brands fa-behance"></i>
+            </a>
+
+            <a href="projects.php">
+                <i class="fa-brands fa-instagram"></i>
             </a>
         </div>
     </nav>
