@@ -14,19 +14,9 @@
 </head>
 
 <body>
-    <div id="vanta_bg"></div>
 
     <nav class="nav_bar">
-        <div class="nav_left">
-            <img src="includes/images/my_logo_2.png" alt="Logo" class="nav_logo">
-
-            <a class="nav_cv_download">
-                <i class="fa-solid fa-file-pdf"></i>CV
-            </a>
-         </div>
-            
-
-        <div>
+        <div class="nav_middle">
             <a href="home.php">
                 Home
             </a>
@@ -44,7 +34,7 @@
             </a>
 
             <a href="work_experience.php">
-                Work Experience
+                Work Experience & CV
             </a>
 
             <a href="contact.php">
@@ -52,21 +42,21 @@
             </a>
         </div>
 
-        <div>
-            <a href="home.php">
-                <i class="fa-brands fa-github"></i>
+        <div class="nav_right">
+            <a href="https://github.com/rhodevanwyk" target="_blank">
+                <i class="fa-brands fa-github nav_icon"></i>
             </a>
 
-            <a href="about.php">
-                <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/rhode-van-wyk-87b671370" target="_blank">
+                <i class="fa-brands fa-linkedin nav_icon"></i>
             </a>
 
-            <a href="skills.php">
-                <i class="fa-brands fa-behance"></i>
+            <a href="https://www.behance.net/rhodevanwyk" target="_blank">
+                <i class="fa-brands fa-behance nav_icon"></i>
             </a>
 
-            <a href="projects.php">
-                <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/rhhoooddddeeeee/?__pwa=1#" target="_blank">
+                <i class="fa-brands fa-instagram nav_icon"></i>
             </a>
         </div>
     </nav>

@@ -14,7 +14,7 @@
             </div>
             <div class="hero_info">
                 <p class="hero_paragraph">
-                    As of right now, that you're reading this...I have
+                    (As of right now, when you're reading this...I have
                     <?php
                         $career_start_date = new DateTime('2025-06-01');
                         $today = new DateTime();
@@ -22,37 +22,37 @@
 
                         echo "$interval->days";
                     ?>
-                    days of experience.
+                    days of work experience.)
                 </p>
-                <a class="btn">CONTACT ME</a>
-                <a class="btn_sec">VIEW MY PROJECTS</a>
+                <a class="btn" href="contact.php">CONTACT ME</a>
+                <a class="btn_sec" href="projects.php">VIEW MY PROJECTS</a>
             </div>
         </div>
     </section>
 
     <section class="stats_section">
-        <div>
-            <h1>90<span>%</span></h1>
-            <h2>UI modernisation at ZimmerSoftware KG</h2>
-            <p>C25 Software Design Update</p>
+        <div class="stats_left">
+            <h1 class="stats_main_nr">90<span class="stats_small_text">%</span></h1>
+            <h2 class="stats_title">UI modernisation at ZimmerSoftware KG</h2>
+            <p class="stats_paragraph">C25 Software Design Update</p>
         </div>
 
-        <div>
-            <h1>55<span>%</span></h1>
-            <h2>Faster load times via CSS audit</h2>
-            <p>Browser DevTools optimisation</p>
+        <div class="stats_right">
+            <h1 class="stats_main_nr">55<span class="stats_small_text">%</span></h1>
+            <h2 class="stats_title">Faster load times via CSS audit</h2>
+            <p class="stats_paragraph">Browser DevTools optimisation</p>
         </div>
 
-        <div>
-            <h1>100<span>%</span></h1>
-            <h2>Customer satisfaction rate</h2>
-            <a href="https://www.google.com/search?client=opera-gx&q=zimmersoftware+kg&sourceid=opera&ie=UTF-8&oe=UTF-8#" target="_blank"><p>ZimmerSoftware Google Reviews</p></a>
+        <div class="stats_left">
+            <h1 class="stats_main_nr">100<span class="stats_small_text">%</span></h1>
+            <h2 class="stats_title">Customer satisfaction rate</h2>
+            <a href="https://www.google.com/search?client=opera-gx&q=zimmersoftware+kg&sourceid=opera&ie=UTF-8&oe=UTF-8#" target="_blank"><p class="stats_paragraph"><i class="fa-solid fa-link"></i> ZimmerSoftware Google Reviews</p></a>
         </div>
 
-        <div>
-            <h1>2</h1>
-            <h2>Professional companies worked with</h2>
-            <p>Verified work history</p>
+        <div class="stats_right">
+            <h1 class="stats_main_nr">1</h1>
+            <h2 class="stats_title">Professional company worked with</h2>
+            <a href="work_experience.php"><p class="stats_paragraph"><i class="fa-solid fa-link"></i> Verified Work History</p></a>
         </div>
     </section>
 </main>
