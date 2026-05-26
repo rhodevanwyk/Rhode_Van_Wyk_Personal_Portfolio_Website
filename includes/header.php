@@ -17,7 +17,9 @@
     <div id="vanta_bg"></div>
 
     <nav class="nav_bar">
-        <div>
+        <div class="nav_left">
+            <img src="includes/images/my_logo_2.png" alt="Logo" class="nav_logo">
+
             <a class="nav_cv_download">
                 <i class="fa-solid fa-file-pdf"></i>CV
             </a>

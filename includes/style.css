@@ -134,7 +134,7 @@ body {
   padding: 1.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 800;
 }
 
@@ -144,7 +144,21 @@ body {
   border-radius: 1rem;
   font-weight: 800;
   padding: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
   cursor: pointer;
+}
+
+.nav_logo {
+  height: 3rem;
+}
+
+.nav_left {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer_section {
+  height: 30vh;
+  background-color: var(--green);
+  width: 100%
 }
