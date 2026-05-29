@@ -215,5 +215,30 @@ body {
 }
 
 .about_me_section {
+  padding: 12rem;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
+  gap: 3rem;
+}
+
+.about_title {
+  font-family: var(--bionix);
+  font-size: 10rem;
+  line-height: 0.7;
+  color: var(--dark);
+  text-align: right;
+}
+
+.about_paragraph {
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--dark);
+  border-left: 1rem solid var(--medium_2);
+  padding-left: 3rem;
+}
+
+.green_bg {
+  background-color: var(--green);
 }

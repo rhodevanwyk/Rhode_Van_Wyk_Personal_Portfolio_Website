@@ -2,8 +2,15 @@
 
 <main>
   <section class="hero_section">
-    <h1 class="hero_title"><span class="hero_red_text">Full-Stack </span>& <span class="hero_red_text">Front-End
-      </span>Web Developer
+    <h1 class="hero_title">
+      <span class="hero_red_text">
+        Full-Stack 
+      </span>
+      & 
+      <span class="hero_red_text">
+        Front-End
+      </span>
+      Web Developer
       <span class="hero_title_small">
         with UI/UX Design experience.
       </span>
