@@ -175,7 +175,7 @@ body {
 .footer_section {
   height: 30vh;
   background-color: var(--green);
-  width: 100%
+  width: 100%;
 }
 
 .stats_left {
