@@ -95,88 +95,88 @@
 
   <section class="skills_section">
     <h1 class="skills_title">SKILLS ETC.</h1>
-    <div class="skills-wrap">
+    <div class="skills_wrap">
 
       <!-- Frontend -->
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
           alt="" />HTML5</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
           alt="" />CSS3</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
           alt="" />JavaScript</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jquery.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jquery.svg"
           alt="" />jQuery</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg"
           alt="" />Tailwind CSS</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg"
           alt="" />Bootstrap</span>
 
       <!-- Backend & DB -->
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
           alt="" />PHP</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/laravel.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/laravel.svg"
           alt="" />Laravel</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg"
           alt="" />MySQL</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg" alt="" />LAMP
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg" alt="" />LAMP
         Stack</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gnubash.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gnubash.svg"
           alt="" />Bash</span>
 
       <!-- Design & UX -->
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/figma.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/figma.svg"
           alt="" />Figma</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/webflow.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/webflow.svg"
           alt="" />Webflow</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/canva.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/canva.svg"
           alt="" />Canva</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/adobe.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/adobe.svg"
           alt="" />Adobe</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gimp.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gimp.svg"
           alt="" />GIMP</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/wix.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/wix.svg"
           alt="" />Wix</span>
 
       <!-- Creative & Video -->
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/davinciresolve.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/davinciresolve.svg"
           alt="" />DaVinci Resolve</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/capcut.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/capcut.svg"
           alt="" />CapCut</span>
 
       <!-- Dev Tools -->
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg"
           alt="" />VS Code</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
           alt="" />Git</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
           alt="" />GitHub</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gitlab.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gitlab.svg"
           alt="" />GitLab</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/phpmyadmin.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/phpmyadmin.svg"
           alt="" />phpMyAdmin</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
           alt="" />XAMPP</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/netlify.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/netlify.svg"
           alt="" />Netlify</span>
 
       <!-- Productivity -->
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/notion.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/notion.svg"
           alt="" />Notion</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/miro.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/miro.svg"
           alt="" />Miro</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/google.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/google.svg"
           alt="" />Google Workspace</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftoffice.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftoffice.svg"
           alt="" />Microsoft Office</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/libreoffice.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/libreoffice.svg"
           alt="" />LibreOffice</span>
 
       <!-- OS -->
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg"
           alt="" />Linux</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ubuntu.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ubuntu.svg"
           alt="" />Ubuntu</span>
-      <span class="skill-badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg"
+      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg"
           alt="" />Windows</span>
 
     </div>

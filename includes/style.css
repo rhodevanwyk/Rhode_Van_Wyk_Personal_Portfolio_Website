@@ -266,7 +266,7 @@ body {
   flex-direction: column;
 }
 
-.skill-badge {
+.skill_badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -276,19 +276,19 @@ body {
   font-size: 1.5rem;
   border-radius: 1rem;
   font-family: sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.skill-badge img {
+.skill_badge img {
   width: 1.5rem;
   height: 1.5rem;
   filter: brightness(0) saturate(100%) invert(11%) sepia(15%) saturate(800%)
     hue-rotate(270deg) brightness(95%) contrast(90%);
 }
 
-.skills-wrap {
+.skills_wrap {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
