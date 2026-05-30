@@ -17,28 +17,28 @@
 
     <nav class="nav_bar">
         <div class="nav_middle">
-            <a href="home.php">
+            <a href="#home">
                 Home
             </a>
 
-            <a href="about.php">
+            <a href="#about">
                 About
             </a>
 
-            <a href="skills.php">
+            <a href="#skills">
                 Skills
             </a>
 
-            <a href="projects.php">
+            <a href="#projects">
                 Projects
             </a>
 
-            <a href="work_experience.php">
-                CV
+            <a href="#contact">
+                Contact
             </a>
 
-            <a href="contact.php">
-                Contact
+            <a href="includes/pdf/Rhode_Van_Wyk_CV.pdf" target="_blank">
+                CV
             </a>
         </div>
 

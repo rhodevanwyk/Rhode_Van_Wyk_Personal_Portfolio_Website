@@ -1,7 +1,7 @@
 <?php require_once 'includes/header.php' ?>
 
 <main>
-  <section class="hero_section">
+  <section class="hero_section" id="home">
     <h1 class="hero_title">
       <span class="hero_red_text">
         Full-Stack
@@ -32,8 +32,8 @@
           ?>
           days of work experience.)
         </p>
-        <a class="btn" href="contact.php">CONTACT ME</a>
-        <a class="btn_sec" href="projects.php">VIEW MY PROJECTS</a>
+        <a class="btn" href="#contact">CONTACT ME</a>
+        <a class="btn_sec" href="#projects">VIEW MY PROJECTS</a>
       </div>
     </div>
   </section>
@@ -69,7 +69,7 @@
     </div>
   </section>
 
-  <section class="about_me_section">
+  <section class="about_me_section" id="about">
     <h1 class="about_title">ABOUT ME...</h1>
     <div class="about_paragraph">
       <p>
@@ -93,11 +93,10 @@
     </div>
   </section>
 
-  <section class="skills_section">
+  <section class="skills_section" id="skills">
     <h1 class="skills_title">SKILLS ETC.</h1>
     <div class="skills_wrap">
 
-      <!-- Frontend -->
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
           alt="" />HTML5</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
@@ -110,8 +109,6 @@
           alt="" />Tailwind CSS</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg"
           alt="" />Bootstrap</span>
-
-      <!-- Backend & DB -->
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
           alt="" />PHP</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/laravel.svg"
@@ -122,8 +119,6 @@
         Stack</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gnubash.svg"
           alt="" />Bash</span>
-
-      <!-- Design & UX -->
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/figma.svg"
           alt="" />Figma</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/webflow.svg"
@@ -136,14 +131,9 @@
           alt="" />GIMP</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/wix.svg"
           alt="" />Wix</span>
-
-      <!-- Creative & Video -->
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/davinciresolve.svg"
           alt="" />DaVinci Resolve</span>
-      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/capcut.svg"
-          alt="" />CapCut</span>
-
-      <!-- Dev Tools -->
+      <span class="skill_badge">CapCut</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg"
           alt="" />VS Code</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
@@ -158,20 +148,15 @@
           alt="" />XAMPP</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/netlify.svg"
           alt="" />Netlify</span>
-
-      <!-- Productivity -->
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/notion.svg"
           alt="" />Notion</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/miro.svg"
           alt="" />Miro</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/google.svg"
           alt="" />Google Workspace</span>
-      <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftoffice.svg"
-          alt="" />Microsoft Office</span>
+      <span class="skill_badge">Microsoft Office</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/libreoffice.svg"
           alt="" />LibreOffice</span>
-
-      <!-- OS -->
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg"
           alt="" />Linux</span>
       <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ubuntu.svg"
@@ -180,6 +165,10 @@
           alt="" />Windows</span>
 
     </div>
+  </section>
+
+  <section class="projects_section" id="projects">
+
   </section>
 </main>
 

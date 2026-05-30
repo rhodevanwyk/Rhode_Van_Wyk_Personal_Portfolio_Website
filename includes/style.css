@@ -176,7 +176,9 @@ body {
   height: fit-content;
   background-color: var(--green);
   width: 100%;
-  padding: 3rem;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,7 +189,7 @@ body {
 .footer_text {
   color: var(--dark);
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .stats_left {
