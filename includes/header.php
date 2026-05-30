@@ -34,7 +34,7 @@
             </a>
 
             <a href="work_experience.php">
-                Work Experience & CV
+                CV
             </a>
 
             <a href="contact.php">

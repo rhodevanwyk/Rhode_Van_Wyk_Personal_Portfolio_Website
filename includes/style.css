@@ -173,9 +173,21 @@ body {
 }
 
 .footer_section {
-  height: 30vh;
+  height: fit-content;
   background-color: var(--green);
   width: 100%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  border-top: 2px solid var(--medium_2);
+}
+
+.footer_text {
+  color: var(--dark);
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 .stats_left {
@@ -218,8 +230,10 @@ body {
   padding: 12rem;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  gap: 3rem;
+  height: fit-content;
+  gap: 6rem;
+  justify-content: end;
+  background-color: var(--green);
 }
 
 .about_title {
@@ -235,10 +249,62 @@ body {
   text-align: left;
   font-weight: 600;
   color: var(--dark);
-  border-left: 1rem solid var(--medium_2);
-  padding-left: 3rem;
 }
 
-.green_bg {
-  background-color: var(--green);
+.copyright {
+  text-align: right;
+}
+
+.footer_content {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_contact_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #86a88f;
+  color: #291e24;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.skill-badge img {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: brightness(0) saturate(100%) invert(11%) sepia(15%) saturate(800%)
+    hue-rotate(270deg) brightness(95%) contrast(90%);
+}
+
+.skills-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills_section {
+  padding: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.skills_title {
+  font-family: var(--bionix);
+  font-size: 10rem;
+  line-height: 0.7;
+  color: var(--green);
+  text-align: right;
 }
