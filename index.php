@@ -33,6 +33,10 @@
         Contact
       </a>
 
+      <a href="#about">
+        About
+      </a>
+
       <a href="./includes/pdf/Rhode_Van_Wyk_CV.pdf" target="_blank">
         CV
       </a>
@@ -98,33 +102,34 @@
     <section class="stats_section">
       <div class="stats_left">
         <h1 class="stats_main_nr">90<span class="stats_small_text">%</span></h1>
-        <h2 class="stats_title">UI modernisation at ZimmerSoftware KG</h2>
-        <p class="stats_paragraph">C25 Software Design Update</p>
+        <h2 class="stats_title">UI Modernisation At ZimmerSoftware KG</h2>
+        <p class="stats_paragraph">Redesigned & Rebuilt More Than 10 Pages For ZimmerSoftware KG's Design C25 Update.
+        </p>
       </div>
 
       <div class="stats_right">
         <h1 class="stats_main_nr">55<span class="stats_small_text">%</span></h1>
-        <h2 class="stats_title">Faster load times via CSS audit</h2>
-        <p class="stats_paragraph">Browser DevTools optimisation</p>
+        <h2 class="stats_title">Faster Load Times Via CSS Audit</h2>
+        <p class="stats_paragraph">Using Browser DevTools For Optimisation</p>
       </div>
 
       <div class="stats_left">
         <h1 class="stats_main_nr">100<span class="stats_small_text">%</span></h1>
-        <h2 class="stats_title">Customer satisfaction rate</h2>
+        <h2 class="stats_title">Customer Satisfaction Rate</h2>
         <a href="https://www.google.com/search?client=opera-gx&q=zimmersoftware+kg&sourceid=opera&ie=UTF-8&oe=UTF-8#"
           target="_blank">
-          <p class="stats_paragraph"><i class="fa-solid fa-link"></i> ZimmerSoftware Google Reviews</p>
+          <p class="stats_paragraph"><i class="fa-solid fa-link"></i> ZimmerSoftware Google Reviews Recieved</p>
         </a>
       </div>
 
       <div class="stats_right">
         <h1 class="stats_main_nr">1</h1>
-        <h2 class="stats_title">Professional company worked with</h2>
-        <a href="work_experience.php">
-          <p class="stats_paragraph"><i class="fa-solid fa-link"></i> Verified Work History</p>
-        </a>
+        <h2 class="stats_title">Professional Development Role</h2>
+        <p class="stats_paragraph">Verified Work History</p>
       </div>
     </section>
+
+
 
     <section class="skills_section" id="skills">
       <h1 class="skills_title">SKILLS ETC.</h1>
@@ -201,20 +206,231 @@
     </section>
 
     <section class="projects_section" id="projects">
+      <h1 class="projects_title"><span class="projects_sm_title_txt">(PERSONAL) </span>PROJECTS</h1>
+
+      <div class="projects_grid">
+
+        <article class="project_card">
+          <img src="./includes/images/auth_system.png" class="project_pic">
+          <div class="project_content">
+            <span class="project_type">Full Stack</span>
+
+            <h3>Full Stack Authentication System</h3>
+
+            <p>
+              A full-stack authentication and role management system built with PHP, MySQL, HTML, CSS, and JavaScript.
+              This project demonstrates secure user authentication, session management, database integration, and
+              role-based access control within a traditional LAMP/WAMP development environment.
+            </p>
+
+            <div class="project_stack">
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
+                  alt="" />PHP</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg"
+                  alt="" />MySQL</span>
+
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
+                  alt="" />HTML5</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
+                  alt="" />CSS3</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
+                  alt="" />JavaScript</span>
+              <span class="skill_badge"><img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="" />VS Code</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
+                  alt="" />Git</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
+                  alt="" />GitHub</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/phpmyadmin.svg"
+                  alt="" />phpMyAdmin</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
+                  alt="" />XAMPP</span>
+            </div>
+
+            <div class="project_links">
+              <a class="btn project_btns" href="#"><i class="fa-brands fa-github"></i>GitHub</a>
+              <a class="btn project_btns" href="#"><i class="fa-solid fa-link"></i>Live Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project_card">
+          <img src="./includes/images/php_rest_api.png" class="project_pic">
+          <div class="project_content">
+            <span class="project_type">Full Stack</span>
+
+            <h3>PHP REST API</h3>
+
+            <p>
+              A minimal blog API built with pure PHP, PDO, and MySQL. This project demonstrates clean REST endpoint
+              design, relational data handling, and a lightweight browser client for CRUD operations.
+            </p>
+
+            <div class="project_stack">
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
+                  alt="" />PHP</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg"
+                  alt="" />MySQL</span>
+
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
+                  alt="" />HTML5</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
+                  alt="" />CSS3</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
+                  alt="" />JavaScript</span>
+              <span class="skill_badge"><img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="" />VS Code</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
+                  alt="" />Git</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
+                  alt="" />GitHub</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/phpmyadmin.svg"
+                  alt="" />phpMyAdmin</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
+                  alt="" />XAMPP</span>
+            </div>
+
+            <div class="project_links">
+              <a class="btn project_btns" href="#"><i class="fa-brands fa-github"></i>GitHub</a>
+              <a class="btn project_btns" href="#"><i class="fa-solid fa-link"></i>Live Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project_card">
+          <img src="./includes/images/calendar_app.png" class="project_pic">
+          <div class="project_content">
+            <span class="project_type">Full Stack</span>
+
+            <h3>A Simple Calendar App</h3>
+
+            <p>
+              A basic full-stack calendar application built with PHP, MySQL, HTML, HTML, CSS (Tailwind CSS 4 + daisyUI
+              5) and JavaScript. It provides CRUD operations for calendar events and is designed to run on a local LAMP
+              (Windows/XAMPP) or similar environment.
+            </p>
+
+            <div class="project_stack">
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
+                  alt="" />PHP</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg"
+                  alt="" />MySQL</span>
+
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
+                  alt="" />HTML5</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
+                  alt="" />CSS3</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
+                  alt="" />JavaScript</span>
+              <span class="skill_badge"><img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="" />VS Code</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
+                  alt="" />Git</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
+                  alt="" />GitHub</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/phpmyadmin.svg"
+                  alt="" />phpMyAdmin</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
+                  alt="" />XAMPP</span>
+            </div>
+
+            <div class="project_links">
+              <a class="btn project_btns" href="#"><i class="fa-brands fa-github"></i>GitHub</a>
+              <a class="btn project_btns" href="#"><i class="fa-solid fa-link"></i>Live Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project_card">
+          <img src="./includes/images/portfolio_website.png" class="project_pic">
+          <div class="project_content">
+            <span class="project_type">Front End</span>
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+              The website you're viewing right now...built with pure HTML, CSS & JS. To showcase my skills, who I am,
+              what I do, what I've been doing and what I will continue to do, EVERYTHING about me and my career choice.
+            </p>
+
+            <div class="project_stack">
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
+                  alt="" />PHP</span>
+
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
+                  alt="" />HTML5</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
+                  alt="" />CSS3</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
+                  alt="" />JavaScript</span>
+              <span class="skill_badge"><img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="" />VS Code</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
+                  alt="" />Git</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
+                  alt="" />GitHub</span>
+              <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
+                  alt="" />XAMPP</span>
+            </div>
+
+            <div class="project_links">
+              <a class="btn project_btns" href="#"><i class="fa-brands fa-github"></i>GitHub</a>
+              <a class="btn project_btns" href="#"><i class="fa-solid fa-link"></i>Live Project</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      </div>
 
     </section>
+
+    <section class="about_section" id="about">
+      <div class="about_grid">
+        <div>
+          <h1 class="about_title">ABOUT</h1>
+          <p class="about_body">
+            I'm a <strong>Full-Stack Web Developer</strong>, based in Pretoria, South Africa...busy skilling up on my own (Self Taught), using the abundance of resources on the web.<br><br> I create art when I'm not coding and I code when I'm not creating art...joke...I do more than JUST that, sometimes.<br><br>More about me...I learn by doing, I'm persistent to the point of MAYBE being annoying, I like having some form of independence, not afraid to speak / express myself, and I'm VERY detail aware.<br><br>Bilingual
+            (<strong>EN / AF</strong>), which means I can argue about semicolons in two languages.
+          </p>
+          <div class="about_facts">
+            <div class="about_fact">
+              <span class="about_fact_dot"></span>
+              Currently Building Projects Using The LAMP Stack
+            </div>
+            <div class="about_fact">
+              <span class="about_fact_dot"></span>
+              8 Months Professional Experience, 100% Remote
+            </div>
+            <div class="about_fact">
+              <span class="about_fact_dot"></span>
+              UTC+2 - Available To Work Any Hours
+            </div>
+          </div>
+        </div>
+
+        <div class="pic_wrap">
+          <img src="./includes/images/me.png" class="about_pic">
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+   
   </main>
 
   <footer class="footer_section" id="contact">
     <div class="footer_content">
       <div class="footer_contact_info">
-        <p class="footer_text">+27 76 851 9561</p>
-        <p class="footer_text">vanwykrhode30@gmail.com</p>
+        <p class="footer_text"><i class="fa-solid fa-phone"></i> +27 76 851 9561</p>
+        <p class="footer_text"><i class="fa-solid fa-envelope"></i> vanwykrhode30@gmail.com</p>
       </div>
       <p class="footer_text copyright">&copy; <?php echo date('Y'); ?> Rhodé Van Wyk. All rights reserved.</p>
     </div>
   </footer>
 
+  <script src="./includes/script.js"></script>
 </body>
 
 </html>
