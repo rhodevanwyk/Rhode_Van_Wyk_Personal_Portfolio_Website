@@ -211,7 +211,7 @@
       <div class="projects_grid">
 
         <article class="project_card">
-          <img src="./includes/images/auth_system.png" class="project_pic">
+          <img src="./includes/images/auth_system.png" alt="Project Mockup Image" class="project_pic">
           <div class="project_content">
             <span class="project_type">Full Stack</span>
 
@@ -255,7 +255,7 @@
         </article>
 
         <article class="project_card">
-          <img src="./includes/images/php_rest_api.png" class="project_pic">
+          <img src="./includes/images/php_rest_api.png" alt="Project Mockup Image" class="project_pic">
           <div class="project_content">
             <span class="project_type">Full Stack</span>
 
@@ -298,7 +298,7 @@
         </article>
 
         <article class="project_card">
-          <img src="./includes/images/calendar_app.png" class="project_pic">
+          <img src="./includes/images/calendar_app.png" alt="Project Mockup Image" class="project_pic">
           <div class="project_content">
             <span class="project_type">Full Stack</span>
 
@@ -312,26 +312,25 @@
 
             <div class="project_stack">
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
-                  alt="" />PHP</span>
+                  alt="PHP" />PHP</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg"
-                  alt="" />MySQL</span>
-
+                  alt="MYSQL" />MySQL</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
-                  alt="" />HTML5</span>
+                  alt="HTML5" />HTML5</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
-                  alt="" />CSS3</span>
+                  alt="CSS3" />CSS3</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
-                  alt="" />JavaScript</span>
+                  alt="JavaScript" />JavaScript</span>
               <span class="skill_badge"><img
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="" />VS Code</span>
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="VS Code" />VS Code</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
-                  alt="" />Git</span>
+                  alt="Git" />Git</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
-                  alt="" />GitHub</span>
+                  alt="GitHub" />GitHub</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/phpmyadmin.svg"
-                  alt="" />phpMyAdmin</span>
+                  alt="phpMyAdmin" />phpMyAdmin</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
-                  alt="" />XAMPP</span>
+                  alt="XAMPP" />XAMPP</span>
             </div>
 
             <div class="project_links">
@@ -342,7 +341,7 @@
         </article>
 
         <article class="project_card">
-          <img src="./includes/images/portfolio_website.png" class="project_pic">
+          <img src="./includes/images/portfolio_website.png" alt="Project Mockup Image" class="project_pic">
           <div class="project_content">
             <span class="project_type">Front End</span>
 
@@ -355,22 +354,21 @@
 
             <div class="project_stack">
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg"
-                  alt="" />PHP</span>
-
+                  alt="PHP" />PHP</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg"
-                  alt="" />HTML5</span>
+                  alt="HTML5" />HTML5</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg"
-                  alt="" />CSS3</span>
+                  alt="CSS3" />CSS3</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg"
-                  alt="" />JavaScript</span>
+                  alt="JavaScript" />JavaScript</span>
               <span class="skill_badge"><img
                   src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/visualstudiocode.svg" alt="" />VS Code</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg"
-                  alt="" />Git</span>
+                  alt="Git" />Git</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg"
-                  alt="" />GitHub</span>
+                  alt="GitHub" />GitHub</span>
               <span class="skill_badge"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/xampp.svg"
-                  alt="" />XAMPP</span>
+                  alt="XAMPP" />XAMPP</span>
             </div>
 
             <div class="project_links">
@@ -381,7 +379,6 @@
         </article>
 
       </div>
-      </div>
 
     </section>
 
@@ -390,7 +387,7 @@
         <div>
           <h1 class="about_title">ABOUT</h1>
           <p class="about_body">
-            I'm a <strong>Full-Stack Web Developer</strong>, based in Pretoria, South Africa...busy skilling up on my own (Self Taught), using the abundance of resources on the web.<br><br> I create art when I'm not coding and I code when I'm not creating art...joke...I do more than JUST that, sometimes.<br><br>More about me...I learn by doing, I'm persistent to the point of MAYBE being annoying, I like having some form of independence, not afraid to speak / express myself, and I'm VERY detail aware.<br><br>Bilingual
+            I'm a <strong>Full-Stack Web Developer</strong>, based in Pretoria, South Africa...busy learning web development on my own (self-taught), using the abundance of resources on the web.<br><br> I create art when I'm not coding and I code when I'm not creating art...joke...I do more than JUST that, sometimes.<br><br>More about me...I learn by doing, I'm persistent to the point of MAYBE being annoying, I like having some form of independence, not afraid to speak / express myself, and I'm VERY detail aware.<br><br>Bilingual
             (<strong>EN / AF</strong>), which means I can argue about semicolons in two languages.
           </p>
           <div class="about_facts">
@@ -410,10 +407,8 @@
         </div>
 
         <div class="pic_wrap">
-          <img src="./includes/images/me.png" class="about_pic">
+          <img src="./includes/images/me.png" alt="A Selfie Of Rhode Van Wyk" class="about_pic">
         </div>
-      </div>
-
       </div>
     </section>
 
