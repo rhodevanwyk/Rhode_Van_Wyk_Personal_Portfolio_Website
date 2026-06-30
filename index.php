@@ -42,7 +42,7 @@
       </a>
     </div>
 
-    <div class="nav_right">
+    <div class="nav_socials">
       <a href="https://github.com/rhodevanwyk" target="_blank">
         <i class="fa-brands fa-github nav_icon"></i>
       </a>
@@ -64,14 +64,7 @@
   <main>
     <section class="hero_section" id="home">
       <h1 class="hero_title">
-        <span class="hero_red_text">
-          Full-Stack
-        </span>
-        &
-        <span class="hero_red_text">
-          Front-End
-        </span>
-        Web Developer
+          Full-Stack & Front-End Web Developer
         <span class="hero_title_small">
           with UI/UX Design experience.
         </span>

@@ -168,7 +168,7 @@ body {
   gap: 2rem;
 }
 
-.nav_right {
+.nav_socials {
   display: inline-flex;
   gap: 0.5rem;
 }
@@ -320,7 +320,7 @@ body {
 
 .projects_title {
   font-family: var(--bionix);
-  font-size: 10rem;
+  font-size: 8rem;
   line-height: 0.7;
   color: var(--green);
   text-align: right;
@@ -413,6 +413,12 @@ body {
   width: 30%;
 }
 
+.project_pic img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .fa-brands {
   margin-right: 0.5rem;
 }
@@ -497,4 +503,370 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0;
+}
+
+@media (max-width: 1024px) {
+  .hero_section {
+    padding: 2rem;
+    height: auto;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+
+  .hero_title {
+    font-size: 3.3rem;
+  }
+
+  .hero_title_small {
+    font-size: 1.25rem;
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .hero_name {
+    font-size: 11rem;
+    text-align: right;
+    line-height: 0.8;
+  }
+
+  .hero_paragraph {
+    font-size: 1.25rem;
+    text-align: right;
+  }
+
+  .hero_extras_container {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .hero_info {
+    width: 100%;
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .hero_img_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero_img {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .btn,
+  .btn_sec {
+    width: 100%;
+    max-width: 360px;
+    padding: 1.25rem;
+    font-size: 1.3rem;
+  }
+
+  .nav_bar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .footer_section,
+  .about_section,
+  .skills_section,
+  .projects_section,
+  .stats_section {
+    padding: 6rem 2rem;
+  }
+
+  .projects_grid,
+  .about_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about_title,
+  .skills_title,
+  .projects_title {
+    font-size: 7.5rem;
+  }
+
+  .stats_main_nr {
+    font-size: 7rem;
+  }
+
+  .stats_small_text {
+    font-size: 5rem;
+  }
+
+  .stats_title {
+    font-size: 2.4rem;
+  }
+
+  .stats_paragraph,
+  .about_paragraph,
+  .about_body,
+  .project_card p {
+    font-size: 1.2rem;
+  }
+
+  .project_card {
+    width: 100%;
+    min-width: 0;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .project_stack {
+    gap: 0.6rem;
+    justify-content: flex-end;
+  }
+
+  .project_stack span {
+    padding: 0.65rem 0.95rem;
+    font-size: 0.95rem;
+  }
+
+  .skill_badge {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .footer_content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_section {
+    padding: 2rem 1.5rem;
+    padding-top: 9rem;
+  }
+
+  .hero_title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .about_pic {
+  display: none;
+  }
+
+  .hero_name {
+    font-size: 7rem;
+  }
+
+  .hero_title_small {
+    font-size: 1.5rem;
+  }
+
+  .hero_paragraph {
+    font-size: 1.15rem;
+    text-align: right;
+  }
+
+  .hero_extras_container {
+    gap: 1.5rem;
+    align-items: flex-end;
+  }
+
+  .hero_info {
+    gap: 1rem;
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .btn,
+  .btn_sec {
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.85rem;
+  }
+
+  .nav_bar {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .nav_middle {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  .nav_socials {
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer_section {
+    padding: 1.5rem 1.5rem;
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .stats_section,
+  .about_section,
+  .skills_section,
+  .projects_section {
+    padding: 4rem 1.5rem;
+  }
+
+  .about_title,
+  .skills_title {
+    font-size: 6rem;
+  }
+
+  .projects_title {
+    font-size: 4.5rem;
+  }
+
+  .about_pic {
+  display: none;
+  }
+
+  .projects_sm_title_txt {
+    display: none;
+  }
+
+  .about_body,
+  .project_card p {
+    font-size: 1rem;
+  }
+
+  .project_card {
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    min-width: 0;
+    align-items: flex-start;
+  }
+
+  .project_pic {
+    width: 100%;
+  }
+
+  .project_stack {
+    justify-content: flex-start;
+    gap: 0.55rem;
+  }
+
+  .project_stack span {
+    padding: 0.55rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .skills_wrap,
+  .about_facts {
+    justify-content: flex-start;
+  }
+
+  .about_fact {
+    font-size: 1rem;
+  }
+
+  .skill_badge {
+    padding: 0.95rem;
+    font-size: 1.05rem;
+  }
+
+  .hero_img {
+    max-width: 420px;
+  }
+
+  .footer_contact_info {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero_section {
+    padding: 1.5rem 1rem;
+    padding-top: 8rem;
+  }
+
+  .hero_title {
+    font-size: 2.1rem;
+  }
+
+  .hero_name {
+    font-size: 5rem;
+  }
+
+  .hero_title_small {
+    font-size: 1rem;
+  }
+
+  .hero_paragraph {
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  .btn,
+  .btn_sec {
+    padding: 0.95rem;
+    font-size: 1rem;
+  }
+
+  .stats_main_nr {
+    font-size: 5rem;
+  }
+
+  .stats_small_text {
+    font-size: 3.5rem;
+  }
+
+  .about_title,
+  .skills_title {
+    font-size: 5rem;
+    text-align: right;
+  }
+
+
+  .projects_title {
+    font-size: 3rem;
+  }
+
+  .about_grid {
+    gap: 0;
+  }
+
+  .project_card {
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+    min-width: 0;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .project_card h3 {
+    font-size: 2.25rem;
+  }
+
+  .project_stack {
+    gap: 0.5rem;
+    justify-content: flex-start;
+  }
+
+  .project_stack span {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .skill_badge {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .hero_img {
+    max-width: 320px;
+  }
 }
