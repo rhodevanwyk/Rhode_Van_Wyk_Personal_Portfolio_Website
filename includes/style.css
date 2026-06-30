@@ -777,6 +777,10 @@ body {
     font-size: 1.05rem;
   }
 
+  .about_grid {
+    gap: 0;
+  }
+
   .hero_img {
     max-width: 420px;
   }
