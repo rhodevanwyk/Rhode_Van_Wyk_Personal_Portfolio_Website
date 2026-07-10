@@ -292,8 +292,7 @@ body {
 .skill_badge img {
   width: 1.5rem;
   height: 1.5rem;
-  filter: brightness(0) saturate(100%) invert(67%) sepia(11%) saturate(544%)
-    hue-rotate(77deg) brightness(92%) contrast(88%);
+  filter: brightness(0) saturate(100%) invert(67%) sepia(11%) saturate(544%) hue-rotate(77deg) brightness(92%) contrast(88%);
 }
 
 .skills_wrap {
@@ -652,7 +651,7 @@ body {
   }
 
   .about_pic {
-  display: none;
+    display: none;
   }
 
   .hero_name {
@@ -729,7 +728,7 @@ body {
   }
 
   .about_pic {
-  display: none;
+    display: none;
   }
 
   .projects_sm_title_txt {
